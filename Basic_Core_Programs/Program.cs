@@ -70,15 +70,12 @@ namespace Basic_Core_Programs
                      break;
                 case 10:
                     //to check Largest amont three numbers
-                    //Swap num = new Swap();
-                    //num.SwapNumber(5, 10);
-                    //break;
+                    CheckLargest checkLargest = new CheckLargest();
+                    checkLargest.Largest(10, 20, 30);
+                    break;
                 default:
                     Console.WriteLine("invalid selection made.");
                     break;
-
-
-
             }
 
 
