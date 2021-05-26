@@ -14,7 +14,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("Press 4. for Harmonic Number. ");
             Console.WriteLine("Press 5. for Prime factorization. ");
             Console.WriteLine("Press 6. to Compute Qoutient & Remainder. ");
-            Console.WriteLine("Press 7. for Flip coin. ");
+            Console.WriteLine("Press 7. Swap two numbers. ");
             Console.WriteLine("Press 8. for Flip coin. ");
             Console.WriteLine("Press 9. for Flip coin. ");
             Console.WriteLine("Press 10. for Flip coin. ");
@@ -52,6 +52,12 @@ namespace Basic_Core_Programs
                     //Generate Quotient and Remainder
                     QuotientNRemainder div = new QuotientNRemainder();
                     div.Divide(315,3);
+                    break;
+                case 7:
+                    //Swap two numbers
+                    Swap num = new Swap();
+                    num.SwapNumber(5, 10);
+                   
                     break;
                 default:
                     Console.WriteLine("invalid selection made.");
