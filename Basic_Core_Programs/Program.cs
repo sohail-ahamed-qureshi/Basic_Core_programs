@@ -13,7 +13,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("Press 3. for Power of 2. ");
             Console.WriteLine("Press 4. for Harmonic Number. ");
             Console.WriteLine("Press 5. for Prime factorization. ");
-            Console.WriteLine("Press 6. for Flip coin. ");
+            Console.WriteLine("Press 6. to Compute Qoutient & Remainder. ");
             Console.WriteLine("Press 7. for Flip coin. ");
             Console.WriteLine("Press 8. for Flip coin. ");
             Console.WriteLine("Press 9. for Flip coin. ");
@@ -47,6 +47,11 @@ namespace Basic_Core_Programs
                     //Prime Factorization
                     GeneratePrimeFactorization prime = new GeneratePrimeFactorization();
                     prime.PrimeFactor(315);
+                    break;
+                case 6:
+                    //Generate Quotient and Remainder
+                    QuotientNRemainder div = new QuotientNRemainder();
+                    div.Divide(315,3);
                     break;
                 default:
                     Console.WriteLine("invalid selection made.");
