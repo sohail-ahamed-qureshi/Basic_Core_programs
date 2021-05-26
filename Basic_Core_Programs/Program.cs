@@ -15,9 +15,9 @@ namespace Basic_Core_Programs
             Console.WriteLine("Press 5. for Prime factorization. ");
             Console.WriteLine("Press 6. to Compute Qoutient & Remainder. ");
             Console.WriteLine("Press 7. Swap two numbers. ");
-            Console.WriteLine("Press 8. for Flip coin. ");
-            Console.WriteLine("Press 9. for Flip coin. ");
-            Console.WriteLine("Press 10. for Flip coin. ");
+            Console.WriteLine("Press 8. to check Number odd or even. ");
+            Console.WriteLine("Press 9. Whether alphabet is vowel or Consonant. ");
+            Console.WriteLine("Press 10. to check Largest amont three numbers. ");
 
             int selection = Convert.ToInt32( Console.ReadLine());
 
@@ -57,8 +57,22 @@ namespace Basic_Core_Programs
                     //Swap two numbers
                     Swap num = new Swap();
                     num.SwapNumber(5, 10);
-                   
                     break;
+                case 8:
+                    //to check Number odd or even
+                    OddEven oddEven = new OddEven();
+                    oddEven.CheckOddEven(5);
+                    break;
+                case 9:
+                    //Whether alphabet is vowel or Consonant
+                    //Swap num = new Swap();
+                    //num.SwapNumber(5, 10);
+                    //break;
+                case 10:
+                    //to check Largest amont three numbers
+                    //Swap num = new Swap();
+                    //num.SwapNumber(5, 10);
+                    //break;
                 default:
                     Console.WriteLine("invalid selection made.");
                     break;
