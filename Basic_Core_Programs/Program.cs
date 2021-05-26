@@ -14,6 +14,10 @@ namespace Basic_Core_Programs
             //leap year
             CheckLeapYear leap = new CheckLeapYear();
             leap.LeapYear(2002);
+
+            //power of 2
+            PowerOf2 pow = new PowerOf2();
+            pow.CheckPower(32);
         }
     }
 }
