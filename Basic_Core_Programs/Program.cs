@@ -12,7 +12,7 @@ namespace Basic_Core_Programs
             Console.WriteLine("Press 2. for Leap year. ");
             Console.WriteLine("Press 3. for Power of 2. ");
             Console.WriteLine("Press 4. for Harmonic Number. ");
-            Console.WriteLine("Press 5. for Flip coin. ");
+            Console.WriteLine("Press 5. for Prime factorization. ");
             Console.WriteLine("Press 6. for Flip coin. ");
             Console.WriteLine("Press 7. for Flip coin. ");
             Console.WriteLine("Press 8. for Flip coin. ");
@@ -42,6 +42,11 @@ namespace Basic_Core_Programs
                     //Harmonic Number
                     GenerateHarmonicNumber har = new GenerateHarmonicNumber();
                     har.HarmonicNumber(8);
+                    break;
+                case 5:
+                    //Prime Factorization
+                    GeneratePrimeFactorization prime = new GeneratePrimeFactorization();
+                    prime.PrimeFactor(315);
                     break;
                 default:
                     Console.WriteLine("invalid selection made.");
