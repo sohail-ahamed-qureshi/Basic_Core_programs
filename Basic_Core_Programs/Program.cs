@@ -65,9 +65,9 @@ namespace Basic_Core_Programs
                     break;
                 case 9:
                     //Whether alphabet is vowel or Consonant
-                    //Swap num = new Swap();
-                    //num.SwapNumber(5, 10);
-                    //break;
+                    CheckAlphabet checkAlphabet = new CheckAlphabet();
+                    checkAlphabet.CheckVowel('v');
+                     break;
                 case 10:
                     //to check Largest amont three numbers
                     //Swap num = new Swap();
