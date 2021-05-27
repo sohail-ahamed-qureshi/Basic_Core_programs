@@ -8,7 +8,7 @@ namespace Basic_Core_Programs
     {
         public void Largest(int number1, int number2, int number3)
         {
-            if(number1 == number2 == number3)
+            if(number1 == number2 && number2 ==  number3)
                  Console.WriteLine("All inputs are equal");
             if(number1 > number2 && number1 > number3)            
                 Console.WriteLine($"{number1} is greater");            
