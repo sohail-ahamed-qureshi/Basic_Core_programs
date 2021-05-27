@@ -15,8 +15,7 @@ namespace Basic_Core_Programs
              if(number2 > number1 && number2 > number3)
                 Console.WriteLine($"{number2} is greater");
              if(number3 > number1 && number3 > number2)
-                Console.WriteLine($"{number3} is greater");
-            
+                Console.WriteLine($"{number3} is greater"); 
         }
     }
 }

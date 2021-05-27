@@ -8,14 +8,10 @@ namespace Basic_Core_Programs
     {
         public void SwapNumber(int a, int b)
         {
-            //variables
-            int temp;
-
             Console.WriteLine($"Before Swap a = {a}, b = {b}");
-            temp = b;
-            b = a;
-            a = temp;
-
+            a = a + b;
+            b = a - b;
+            a = a -b;
             Console.WriteLine($"After Swap a = {a}, b ={b}");
         }
     }
