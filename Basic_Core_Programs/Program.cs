@@ -18,9 +18,9 @@ namespace Basic_Core_Programs
             Console.WriteLine("Press 8. to check Number odd or even. ");
             Console.WriteLine("Press 9. Whether alphabet is vowel or Consonant. ");
             Console.WriteLine("Press 10. to check Largest amont three numbers. ");
-
+            // user input 
             int selection = Convert.ToInt32( Console.ReadLine());
-
+            // user selection
             switch (selection)
             {
                 case 1:
@@ -46,7 +46,7 @@ namespace Basic_Core_Programs
                 case 5:
                     //Prime Factorization
                     GeneratePrimeFactorization prime = new GeneratePrimeFactorization();
-                    prime.PrimeFactor(315);
+                    prime.PrimeFactor(23);
                     break;
                 case 6:
                     //Generate Quotient and Remainder
@@ -71,18 +71,12 @@ namespace Basic_Core_Programs
                 case 10:
                     //to check Largest amont three numbers
                     CheckLargest checkLargest = new CheckLargest();
-                    checkLargest.Largest(10, 20, 30);
+                    checkLargest.Largest(30, 30, 30);
                     break;
                 default:
                     Console.WriteLine("invalid selection made.");
                     break;
             }
-
-
-
-
-
-
         }
     }
 }
